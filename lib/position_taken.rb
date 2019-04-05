@@ -2,9 +2,9 @@
 
 def position_taken?(board, position)
   if (board[position]==" " || board[position] == "" || board[position] == nil)
-    taken = false
+    token = false
     else 
-      taken = true
+      token = true
   end
   
   
